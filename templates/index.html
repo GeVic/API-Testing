@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Api Test 
+{% endblock %}
+
+{% block body %}
+    <h1 align="center">Enter Location Details</h1>
+
+      <form action="{{url_for('location')}}" method="post">
+
+        <div class="form-row" >
+          <div class="form-group col-md-4 col-md-offset-4">
+            <input type="text" class="form-control" name="pincode" placeholder="Pincode">
+          </div>
+          <div class="form-group col-md-4 col-md-offset-4">
+            <input type="text" class="form-control" name="place" placeholder="Place">
+          </div>
+          <div class="form-group col-md-4 col-md-offset-4">
+            <input type="text" class="form-control" name="city" placeholder="City">
+          </div>
+          <div class="form-group col-md-4 col-md-offset-4">
+            <input type="text" class="form-control" name="longitude" placeholder="Longitude">
+          </div>
+          <div class="form-group col-md-4 col-md-offset-4">
+            <input type="text" class="form-control" name="latitude" placeholder="Latitude">
+          </div>
+          <div class="form-group col-md-4 col-md-offset-4" style="text-align:center">
+            <button class="btn btn-primary active">Add</button>
+          </div>
+        </div>
+      </form>
+{% endblock %}
