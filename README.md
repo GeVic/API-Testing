@@ -45,21 +45,27 @@ if __name__ == '__main__':
 Although the project doesn't require virtualenv but I would recommend doing so. 
 
 1. First fork the project and clone it through cmd:
+
 ```git clone https://github.com/<your username>/API-Testing.git```
 
 2. If you wants to use virtualenv, then follow these steps. Otherwise jump to step 5.
+
 ```pip install virtualenv```
 
 3. Then change directory and get to the project folder, then type:
+
 ```virtualenv venv```
 
 4. Activate the enviroment
+
 ```venv/Scripts/activate```
 
 5. Install the requirements
+
 ```pip install -r rquirements.txt```
 
 6. All set, run the application 
+
 ```python application.py```
 
 
