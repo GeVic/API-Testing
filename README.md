@@ -1,10 +1,13 @@
 # API-Testing
 This is a sample/tutorial API showing basics steps in creating API and its testing. Micro web framework written in python called Flask is used
 
-## Type of testing performed
+## Getting Started
+hese instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Type of testing performed
 Though there are many frameworks for testing like nose, doctest or unittest2 and others but unittest is the one used in this Flask Application. 
 
-## Reasons for using unittest
+### Reasons for using unittest
 It is the built=in module for implementing unit tests in python and is easy to use and powerful at the same time.
 See below for a basic structure:
 
@@ -41,35 +44,35 @@ class testClass(unittest.TestCase):
 if __name__ == '__main__':
   unittest.main()
 ```
-## Installation
+### Installation
 Although the project doesn't require virtualenv but I would recommend doing so. 
 
 1. First fork the project and clone it through cmd:
 
-```git clone https://github.com/<your username>/API-Testing.git```
+   ```git clone https://github.com/<your username>/API-Testing.git```
 
 2. If you wants to use virtualenv, then follow these steps. Otherwise jump to step 5.
 
-```pip install virtualenv```
+   ```pip install virtualenv```
 
 3. Then change directory and get to the project folder, then type:
 
-```virtualenv venv```
+   ```virtualenv venv```
 
 4. Activate the enviroment
 
-```venv/Scripts/activate```
+   ```venv/Scripts/activate```
 
 5. Install the requirements
 
-```pip install -r rquirements.txt```
+   ```pip install -r rquirements.txt```
 
 6. All set, run the application 
 
-```python application.py```
+   ```python application.py```
 
 
-## Instructions 
+### Instructions 
 There are some python libraries that is to be imported before giving the application a run.
 List of the libraries required is as follows
 
