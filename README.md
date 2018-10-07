@@ -1,14 +1,14 @@
 # API-Testing
-This is a sample/tutorial API showing basics steps in creating API and its testing. Micro web framework written in python called Flask is used
+This is a API sample/tutorial showing basics steps to create an API and test it. `Flask`, a micro web framework written in python has been used.
 
 ## Getting Started
-hese instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Type of testing performed
-Though there are many frameworks for testing like nose, doctest or unittest2 and others but unittest is the one used in this Flask Application. 
+Unit testing library `unittest` is being used to test this Flask application. There are many other frameworks for testing like nose, doctest or unittest2 that can also be easily used.
 
 ### Reasons for using unittest
-It is the built=in module for implementing unit tests in python and is easy to use and powerful at the same time.
+It is the built-in module for implementing unit tests in python and is easy to use and powerful at the same time.
 See below for a basic structure:
 
 ```python
@@ -45,13 +45,13 @@ if __name__ == '__main__':
   unittest.main()
 ```
 ### Installation
-Although the project doesn't require virtualenv but I would recommend doing so. 
+Although the project doesn't require virtualenv but I would recommend using it.
 
--  First fork the project and clone it through cmd:
+-  First fork the project and clone it through the termianal:
 
    ```git clone https://github.com/<your username>/API-Testing.git```
 
--  If you wants to use virtualenv, then follow these steps. Otherwise jump to step 5.
+-  If you want to use virtualenv, then follow these steps. Otherwise jump to step 5.
 
    ```pip install virtualenv```
 
@@ -59,22 +59,26 @@ Although the project doesn't require virtualenv but I would recommend doing so.
 
    ```virtualenv venv```
 
--  Activate the enviroment
+-   Activate the enviroment
 
-   ```venv/Scripts/activate```
+    Windows:
+    ```venv\Scripts\activate```
+   
+    Unix:
+    ```venv/bin/activate```
 
 -  Install the requirements
 
    ```pip install -r rquirements.txt```
 
--  All set, run the application 
+-  All set, run the application with
 
    ```python application.py```
 
 
-### Instructions 
-There are some python libraries that is to be imported before giving the application a run.
-List of the libraries required is as follows
+### Instructions
+A few libraries must be `import`ed before running the application.
+The required libraries are:
 
 
 |Name   |Version   |
